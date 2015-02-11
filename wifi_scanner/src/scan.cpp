@@ -32,6 +32,7 @@ int main(int argc, char **argv)
 		string Sig_SSID[20];
 		int Sig_Freq[20]; 
 		int Sig_Ch[20]; 
+		// The paths needs to be absolute path beginning from /home/usename/...
 		ifstream Strength_dB ("/home/brandhaw/Desktop/Strength_dB.txt");
 		ifstream SSID ("/home/brandhaw/Desktop/SSID");
 		ifstream Freq ("/home/brandhaw/Desktop/Freq");
