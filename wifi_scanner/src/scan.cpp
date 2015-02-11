@@ -91,8 +91,8 @@ int main(int argc, char **argv)
 
 		
 		
-  		else cout << "Unable to open file"; 
-
+  		else cout << "ERROR: Unable to open files\n"; 
+  		ros::Duration(0.5).sleep();
 		/*int i=0;
 		for (i; i<count; i++)
 		{
